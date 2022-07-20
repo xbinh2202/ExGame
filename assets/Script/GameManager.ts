@@ -42,7 +42,7 @@ export default class GameManager extends cc.Component {
 
     addCardPlayHandZone(){
         // so luong card trong hand
-        this.lengthHand = 8;
+        this.lengthHand = 5;
 
         for (let i=0; i<this.lengthHand; i++){
             let prefab = cc.instantiate(this.prefab);
